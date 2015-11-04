@@ -1,0 +1,14 @@
+configuration:
+    include: ['centralConfig.yml']
+
+files:
+    include: ['MCFiles.yml', 'DoubleMuonFiles.yml']
+
+plots:
+    include: ['mumuPlots.yml']
+
+groups:
+    MuMu:
+        legend: "MuMu 2015D"
+legend:
+  position: [0.72, 0.62, 1.16, 0.90]

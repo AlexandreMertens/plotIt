@@ -1,0 +1,17 @@
+'za_dilep_ptOrdered0_Pt':
+  x-axis: "za_dilep_ptOrdered0_p4_Pt"
+  y-axis: "Evt"
+  y-axis-format: "%1% / %2$.0f GeV"
+  normalized: false
+  log-y: both
+  save-extensions: ["png","pdf"]
+  show-ratio: true
+'za_diLeptons0_M':
+  x-axis: "za_diLeptons0_M"
+  y-axis: "Evt"
+  y-axis-format: "%1% / %2$.0f GeV"
+  normalized: false
+  log-y: both
+  save-extensions: ["png","pdf"]
+  show-ratio: true
+

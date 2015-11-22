@@ -2,13 +2,13 @@ configuration:
     include: ['centralConfig.yml']
 
 files:
-    include: ['MCFiles.yml', 'DoubleMuonFiles.yml']
+    include: ['MCFiles.yml', 'DoubleMuonFiles.yml', 'DoubleElectronFiles.yml']
 
 plots:
-    include: ['mumuPlots.yml']
+    include: ['plots_all.yml']
 
 groups:
-    MuMu:
-        legend: "MuMu 2015D"
+    DiEl_DiMu:
+        legend: "data"
 legend:
   position: [0.72, 0.62, 1.16, 0.90]
